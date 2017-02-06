@@ -8,4 +8,8 @@ public class SubClass extends SuperClass {
     static {
         System.out.println("SubClass init!");
     }
+
+    public void sayHi() {
+        System.out.println("hi");
+    }
 }
